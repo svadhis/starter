@@ -9,3 +9,4 @@ export 'package:starter/core/extensions/datetime.dart';
 export 'package:starter/core/utils/enum_value.dart';
 
 export 'package:starter/core/widgets/text.dart';
+export 'package:starter/core/widgets/div.dart';
