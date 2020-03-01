@@ -3,6 +3,11 @@ import 'package:starter/state/home2_state.dart';
 import 'package:starter/state/home_state.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 
+List<Injectable> injectedStores = [
+  Inject<HomeState>(() => HomeState()),
+  Inject<HomeState2>(() => HomeState2()),
+];
+
 class Store {
 
   Store._();
