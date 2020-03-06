@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:starter/core/theme.dart';
+import 'package:starter/components/constants/theme.dart';
 
 enum Style {
   title,

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:starter/core/starter.dart';
-import 'package:starter/state/home_state.dart';
-import 'package:starter/state/stores.dart';
-import 'package:states_rebuilder/states_rebuilder.dart';
+import 'package:starter/components/constants/stores.dart';
+import 'package:starter/components/widgets/div.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key key}) : super(key: key);
