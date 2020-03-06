@@ -1,0 +1,1 @@
+String enumValue(dynamic identifier) => '$identifier'.split('.').last;

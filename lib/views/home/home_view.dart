@@ -1,5 +1,11 @@
 import 'package:starter/components/constants/stores.dart';
 import 'package:starter/components/package.dart';
+import 'package:starter/components/utils/enum_value.dart';
+
+enum Testou {
+  one,
+  two
+}
 
 class HomePage extends StatelessWidget {
   HomePage({Key key}) : super(key: key);
@@ -17,7 +23,7 @@ class HomePage extends StatelessWidget {
         child: Div(
           child: Column(
             children: <Widget>[
-              Text(home.hasData ? home.state.test : '...'),
+              Txt.subtitle(context, home.hasData ? home.state.test : '...'),
               FlatButton(
                 child: Text('SWITCH'),
                 onPressed: () => home.setState((_) => _.setTestDelayed()),
