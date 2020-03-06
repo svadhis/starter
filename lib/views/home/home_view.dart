@@ -18,10 +18,10 @@ class HomePage extends StatelessWidget {
         child: Div(
           child: Column(
             children: <Widget>[
-              Text(home.state.test),
+              Text(home.hasData ? home.state.test : '...'),
               FlatButton(
                 child: Text('SWITCH'),
-                onPressed: () => home.setState((_) => _.setTest()),
+                onPressed: () => home.setState((_) => _.setTestDelayed()),
               )
             ],
           )
